@@ -41,4 +41,8 @@
       margin-top: 1em;
     }
   }
+
+  &__paragraph {
+    text-align: justify;
+  }
 }

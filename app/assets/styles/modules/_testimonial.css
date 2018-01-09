@@ -3,7 +3,7 @@
   padding: 0 18px 1px 18px;
   margin-bottom: 100px;
 
-  @mixin atMedium {
+  @mixin atLarge {
     margin-bottom: 0;
     padding: 0 1.8rem 1px 1.8rem;
   }
@@ -37,5 +37,9 @@
     font-size: .9375rem;
     font-weight: 400;
     margin: .25rem 0 1rem 0;
+  }
+
+  &__paragraph {
+    text-align: left;
   }
 }
