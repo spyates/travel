@@ -25,6 +25,18 @@
 
     @mixin atSmall {
       text-align: left;
+      font-size: 1.625rem;
+      margin-top: .8em;
+    }
+
+    @mixin atMedium {
+      text-align: left;
+      font-size: 1.75rem;
+      margin-top: .9em;
+    }
+
+    @mixin atLarge {
+      text-align: left;
       font-size: 1.875rem;
       margin-top: 1em;
     }
